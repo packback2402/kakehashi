@@ -1,0 +1,88 @@
+# ----------------------------------------
+# Global OS / Editor
+# ----------------------------------------
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
+*.swp
+
+# ----------------------------------------
+# Node.js (Backend + Frontend)
+# ----------------------------------------
+package-lock.json
+
+
+# ----------------------------------------
+# Environment
+# ----------------------------------------
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+.env.test
+
+# Allow .env.example files (templates should be committed)
+!.env.example
+!**/.env.example
+
+
+# ----------------------------------------
+# Frontend (React + Vite + Tailwind + shadcn)
+# ----------------------------------------
+frontend/.env
+frontend/.env.*
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# shadcn generated artifacts
+frontend/components.json
+
+# ----------------------------------------
+# AI Service (Python OR Node)
+# ----------------------------------------
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.cache
+.pytest_cache/
+*.egg-info/
+.env/
+
+# Virtual environments
+env/
+venv/
+
+
+# Logs
+frontend/logs
+frontend/*.log
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/lerna-debug.log*
+
+frontend/node_modules
+backend/node_modules
+frontend/dist
+frontend/dist-ssr
+frontend/*.local
+
+# Editor directories and files
+frontend/.vscode/*
+frontend/!.vscode/extensions.json
+frontend/.idea
+frontend/.DS_Store
+frontend/*.suo
+frontend/*.ntvs*
+frontend/*.njsproj
+frontend/*.sln
+frontend/*.sw?
