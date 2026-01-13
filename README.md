@@ -1,6 +1,6 @@
 # Kakehashi - Hệ thống Hỗ trợ Học tập Tiếng Nhật
 
-**Kakehashi** (架け橋 - Cây cầu) là nền tảng học tập tiếng Nhật với các công cụ: flashcards, bài tập, slide bài giảng và từ điển AI.
+**Kakehashi** (架け橋) là nền tảng học tập tiếng Nhật với các công cụ: flashcards, bài tập, slide bài giảng và từ điển AI.
 
 ---
 
